@@ -2104,6 +2104,16 @@ ul {
     color: rgba(255, 255, 255, 0.3);
 }
 
+.footer__link--inline {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer__link--inline:hover {
+    color: var(--color-accent);
+}
+
 .footer__social {
     display: flex;
     gap: 16px;
