@@ -13,15 +13,21 @@
 </head>
 <body>
 
+    <!-- ============================================ -->
     <!-- PRELOADER -->
+    <!-- ============================================ -->
     <div class="preloader" id="preloader">
         <div class="preloader__inner">
             <span class="preloader__logo">Esma</span>
-            <div class="preloader__bar"><div class="preloader__progress"></div></div>
+            <div class="preloader__bar">
+                <div class="preloader__progress"></div>
+            </div>
         </div>
     </div>
 
+    <!-- ============================================ -->
     <!-- HEADER -->
+    <!-- ============================================ -->
     <header class="header" id="header">
         <div class="header__container">
             <a href="#" class="header__logo">Esma</a>
@@ -40,19 +46,22 @@
             <div class="header__actions">
                 <a href="#booking" class="header__cta">Book Now</a>
                 <button class="header__burger" id="burgerBtn" aria-label="Open menu">
-                    <span></span><span></span><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </button>
             </div>
         </div>
     </header>
 
-    <!-- Mobile Menu -->
+    <!-- Mobile Menu Overlay -->
     <div class="mobile-menu" id="mobileMenu">
         <div class="mobile-menu__inner">
             <div class="mobile-menu__header">
                 <span class="mobile-menu__logo">Esma</span>
                 <button class="mobile-menu__close" id="mobileClose" aria-label="Close menu">
-                    <span></span><span></span>
+                    <span></span>
+                    <span></span>
                 </button>
             </div>
             <nav class="mobile-menu__nav">
@@ -72,7 +81,9 @@
         </div>
     </div>
 
-    <!-- HERO -->
+    <!-- ============================================ -->
+    <!-- HERO SECTION -->
+    <!-- ============================================ -->
     <section class="hero" id="hero">
         <div class="hero__container">
             <div class="hero__content" data-animate="fade-up">
@@ -84,7 +95,9 @@
                         <span>Book Appointment</span>
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg>
                     </a>
-                    <a href="#services" class="btn btn--ghost"><span>Our Services</span></a>
+                    <a href="#services" class="btn btn--ghost">
+                        <span>Our Services</span>
+                    </a>
                 </div>
                 <div class="hero__stats">
                     <div class="hero__stat" data-animate="fade-up" data-delay="200">
@@ -103,10 +116,10 @@
             </div>
             <div class="hero__visual" data-animate="fade-left">
                 <div class="hero__image-main">
-                    <img src="img/photos/art_01.jpg" alt="Luxury nail art by Esma Beauty Studio">
+                    <img src="img/nails1.jpg" alt="Luxury nail art">
                 </div>
                 <div class="hero__image-secondary">
-                    <img src="img/converted/studio_05.jpg" alt="Esma Beauty Studio interior">
+                    <img src="img/nails2.jpg" alt="Nail treatment">
                 </div>
                 <div class="hero__float-badge">
                     <span class="hero__badge-text">Est. 2025</span>
@@ -119,7 +132,9 @@
         </div>
     </section>
 
+    <!-- ============================================ -->
     <!-- BOOKING STRIP -->
+    <!-- ============================================ -->
     <section class="booking-strip" id="booking">
         <div class="booking-strip__container" data-animate="fade-up">
             <div class="booking-strip__info">
@@ -127,9 +142,15 @@
                 <p class="booking-strip__subtitle">Experience the art of beautiful nails</p>
             </div>
             <form class="booking-strip__form" id="bookingForm">
-                <div class="booking-strip__field"><input type="text" placeholder="Your Name" required></div>
-                <div class="booking-strip__field"><input type="email" placeholder="Email Address" required></div>
-                <div class="booking-strip__field"><input type="tel" placeholder="Phone Number" required></div>
+                <div class="booking-strip__field">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="booking-strip__field">
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <div class="booking-strip__field">
+                    <input type="tel" placeholder="Phone Number" required>
+                </div>
                 <button type="submit" class="btn btn--filled">
                     <span>Book Appointment</span>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg>
@@ -138,7 +159,9 @@
         </div>
     </section>
 
-    <!-- ABOUT -->
+    <!-- ============================================ -->
+    <!-- ABOUT SECTION -->
+    <!-- ============================================ -->
     <section class="about" id="about">
         <div class="about__container">
             <div class="about__content" data-animate="fade-up">
@@ -158,13 +181,13 @@
             <div class="about__gallery" data-animate="fade-left">
                 <div class="about__gallery-grid">
                     <div class="about__gallery-item about__gallery-item--large">
-                        <img src="img/converted/studio_10.jpg" alt="Esma Beauty Studio interior">
+                        <img src="img/owner/owner_1.jpg" alt="Ademii — Founder of Esma Beauty Studio">
                     </div>
                     <div class="about__gallery-item about__gallery-item--small">
-                        <img src="img/converted/studio_20.jpg" alt="Studio details">
+                        <img src="img/owner/owner_2.jpg" alt="Ademii at Esma Beauty Studio">
                     </div>
                     <div class="about__gallery-item about__gallery-item--medium">
-                        <img src="img/converted/studio_30.jpg" alt="Luxury nail salon workspace">
+                        <img src="img/nails4.jpg" alt="Luxury nail salon">
                     </div>
                 </div>
                 <a href="#" class="about__instagram-badge" target="_blank">
@@ -175,7 +198,9 @@
         </div>
     </section>
 
+    <!-- ============================================ -->
     <!-- MEET THE OWNER -->
+    <!-- ============================================ -->
     <section class="owner" id="owner">
         <div class="owner__container">
             <div class="owner__image" data-animate="fade-right">
@@ -196,7 +221,9 @@
         </div>
     </section>
 
+    <!-- ============================================ -->
     <!-- WHY CHOOSE US -->
+    <!-- ============================================ -->
     <section class="why-us" id="why-us">
         <div class="why-us__container">
             <div class="why-us__header" data-animate="fade-up">
@@ -228,7 +255,9 @@
         </div>
     </section>
 
-    <!-- SERVICES -->
+    <!-- ============================================ -->
+    <!-- SERVICES SECTION -->
+    <!-- ============================================ -->
     <section class="services" id="services">
         <div class="services__container">
             <div class="services__header" data-animate="fade-up">
@@ -237,52 +266,65 @@
                 <p class="services__intro">From classic manicures to luxurious nail extensions - every treatment is tailored to you.</p>
             </div>
 
+            <!-- Service Categories Visual Grid -->
             <div class="services__visual-grid" data-animate="fade-up">
                 <div class="services__visual-card services__visual-card--large">
-                    <img src="img/photos/art_03.jpg" alt="Regular Manicure">
+                    <img src="img/nails1.jpg" alt="Regular Manicure">
                     <div class="services__visual-overlay">
                         <span class="services__visual-tag">From $40</span>
                         <h3 class="services__visual-title">Regular Manicure</h3>
-                        <span class="services__visual-arrow"><svg width="24" height="24" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg></span>
+                        <span class="services__visual-arrow">
+                            <svg width="24" height="24" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg>
+                        </span>
                     </div>
                 </div>
                 <div class="services__visual-card">
-                    <img src="img/photos/art_06.jpg" alt="Halal Manicure">
+                    <img src="img/nails3.jpg" alt="Halal Manicure">
                     <div class="services__visual-overlay">
                         <span class="services__visual-tag">From $50</span>
                         <h3 class="services__visual-title">Halal Manicure</h3>
-                        <span class="services__visual-arrow"><svg width="24" height="24" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg></span>
+                        <span class="services__visual-arrow">
+                            <svg width="24" height="24" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg>
+                        </span>
                     </div>
                 </div>
                 <div class="services__visual-card">
-                    <img src="img/photos/art_08.jpg" alt="Soft Gel Overlay">
+                    <img src="img/nails2.jpg" alt="Soft Gel Overlay">
                     <div class="services__visual-overlay">
                         <span class="services__visual-tag">From $75</span>
                         <h3 class="services__visual-title">Soft Gel Overlay</h3>
-                        <span class="services__visual-arrow"><svg width="24" height="24" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg></span>
+                        <span class="services__visual-arrow">
+                            <svg width="24" height="24" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg>
+                        </span>
                     </div>
                 </div>
                 <div class="services__visual-card">
-                    <img src="img/photos/art_12.jpg" alt="Nail Extensions">
+                    <img src="img/nails4.jpg" alt="Nail Extensions">
                     <div class="services__visual-overlay">
                         <span class="services__visual-tag">From $110</span>
                         <h3 class="services__visual-title">Nail Extensions</h3>
-                        <span class="services__visual-arrow"><svg width="24" height="24" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg></span>
+                        <span class="services__visual-arrow">
+                            <svg width="24" height="24" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg>
+                        </span>
                     </div>
                 </div>
                 <div class="services__visual-card services__visual-card--wide">
-                    <img src="img/photos/art_15.jpg" alt="Manicure with Owner">
+                    <img src="img/nails5.jpg" alt="Manicure with Owner">
                     <div class="services__visual-overlay">
                         <span class="services__visual-tag">Exclusive</span>
                         <h3 class="services__visual-title">Manicure with Owner</h3>
-                        <span class="services__visual-arrow"><svg width="24" height="24" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg></span>
+                        <span class="services__visual-arrow">
+                            <svg width="24" height="24" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg>
+                        </span>
                     </div>
                 </div>
             </div>
 
+            <!-- Detailed Price List -->
             <div class="services__pricelist" data-animate="fade-up">
                 <h3 class="services__pricelist-heading">Complete Price List</h3>
 
+                <!-- Regular Manicure -->
                 <div class="services__category">
                     <div class="services__category-header" data-accordion>
                         <div>
@@ -291,15 +333,26 @@
                         </div>
                         <div class="services__category-meta">
                             <span class="services__category-duration">30 min</span>
-                            <span class="services__category-toggle"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg></span>
+                            <span class="services__category-toggle">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg>
+                            </span>
                         </div>
                     </div>
                     <div class="services__category-body">
-                        <div class="services__price-row"><span class="services__price-name">Senior Nail Artist</span><span class="services__price-dots"></span><span class="services__price-value">$40</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Top Nail Artist</span><span class="services__price-dots"></span><span class="services__price-value">$50</span></div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Senior Nail Artist</span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$40</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Top Nail Artist</span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$50</span>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Halal Manicure -->
                 <div class="services__category">
                     <div class="services__category-header" data-accordion>
                         <div>
@@ -308,17 +361,36 @@
                         </div>
                         <div class="services__category-meta">
                             <span class="services__category-duration">40 min</span>
-                            <span class="services__category-toggle"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg></span>
+                            <span class="services__category-toggle">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg>
+                            </span>
                         </div>
                     </div>
                     <div class="services__category-body">
-                        <div class="services__price-row"><span class="services__price-name">Henna Manicure - Senior Nail Artist</span><span class="services__price-dots"></span><span class="services__price-value">$50</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Henna Manicure - Top Nail Artist</span><span class="services__price-dots"></span><span class="services__price-value">$60</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Japanese Manicure - Senior Nail Artist</span><span class="services__price-dots"></span><span class="services__price-value">$50</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Japanese Manicure - Top Nail Artist</span><span class="services__price-dots"></span><span class="services__price-value">$60</span></div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Henna Manicure - Senior Nail Artist</span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$50</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Henna Manicure - Top Nail Artist</span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$60</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Japanese Manicure - Senior Nail Artist</span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$50</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Japanese Manicure - Top Nail Artist</span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$60</span>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Manicure with Owner -->
                 <div class="services__category">
                     <div class="services__category-header" data-accordion>
                         <div>
@@ -327,17 +399,36 @@
                         </div>
                         <div class="services__category-meta">
                             <span class="services__category-duration">40 min - 2.5 hr</span>
-                            <span class="services__category-toggle"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg></span>
+                            <span class="services__category-toggle">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg>
+                            </span>
                         </div>
                     </div>
                     <div class="services__category-body">
-                        <div class="services__price-row"><span class="services__price-name">Regular Manicure <span class="services__price-time">40 min</span></span><span class="services__price-dots"></span><span class="services__price-value">$80</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Soft Gel Manicure <span class="services__price-time">1 hr 30 min</span></span><span class="services__price-dots"></span><span class="services__price-value">$100</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Hard Gel Overlay <span class="services__price-time">2 hr</span></span><span class="services__price-dots"></span><span class="services__price-value">$120</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Nail Extension <span class="services__price-time">2 hr 30 min</span></span><span class="services__price-dots"></span><span class="services__price-value">$150</span></div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Regular Manicure <span class="services__price-time">40 min</span></span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$80</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Soft Gel Manicure <span class="services__price-time">1 hr 30 min</span></span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$100</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Hard Gel Overlay <span class="services__price-time">2 hr</span></span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$120</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Nail Extension <span class="services__price-time">2 hr 30 min</span></span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$150</span>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Soft Gel Overlay - Senior -->
                 <div class="services__category">
                     <div class="services__category-header" data-accordion>
                         <div>
@@ -346,16 +437,31 @@
                         </div>
                         <div class="services__category-meta">
                             <span class="services__category-duration">1 hr 30 min</span>
-                            <span class="services__category-toggle"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg></span>
+                            <span class="services__category-toggle">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg>
+                            </span>
                         </div>
                     </div>
                     <div class="services__category-body">
-                        <div class="services__price-row"><span class="services__price-name">Short Nails</span><span class="services__price-dots"></span><span class="services__price-value">$75</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Medium Nails</span><span class="services__price-dots"></span><span class="services__price-value">$80</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Long Nails</span><span class="services__price-dots"></span><span class="services__price-value">$85</span></div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Short Nails</span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$75</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Medium Nails</span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$80</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Long Nails</span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$85</span>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Soft Gel Overlay - Top -->
                 <div class="services__category">
                     <div class="services__category-header" data-accordion>
                         <div>
@@ -364,16 +470,31 @@
                         </div>
                         <div class="services__category-meta">
                             <span class="services__category-duration">1 hr 30 min</span>
-                            <span class="services__category-toggle"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg></span>
+                            <span class="services__category-toggle">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg>
+                            </span>
                         </div>
                     </div>
                     <div class="services__category-body">
-                        <div class="services__price-row"><span class="services__price-name">Short Nails</span><span class="services__price-dots"></span><span class="services__price-value">$80</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Medium Nails</span><span class="services__price-dots"></span><span class="services__price-value">$85</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Long Nails</span><span class="services__price-dots"></span><span class="services__price-value">$90</span></div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Short Nails</span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$80</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Medium Nails</span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$85</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Long Nails</span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$90</span>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Hard Gel Overlay -->
                 <div class="services__category">
                     <div class="services__category-header" data-accordion>
                         <div>
@@ -382,14 +503,21 @@
                         </div>
                         <div class="services__category-meta">
                             <span class="services__category-duration">2 hr</span>
-                            <span class="services__category-toggle"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg></span>
+                            <span class="services__category-toggle">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg>
+                            </span>
                         </div>
                     </div>
                     <div class="services__category-body">
-                        <div class="services__price-row"><span class="services__price-name">Hard Gel Overlay</span><span class="services__price-dots"></span><span class="services__price-value">$85</span></div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Hard Gel Overlay</span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$85</span>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Nail Extensions - Senior -->
                 <div class="services__category">
                     <div class="services__category-header" data-accordion>
                         <div>
@@ -398,17 +526,36 @@
                         </div>
                         <div class="services__category-meta">
                             <span class="services__category-duration">2.5 - 3 hr</span>
-                            <span class="services__category-toggle"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg></span>
+                            <span class="services__category-toggle">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg>
+                            </span>
                         </div>
                     </div>
                     <div class="services__category-body">
-                        <div class="services__price-row"><span class="services__price-name">Short (1-1.5) <span class="services__price-time">2 hr 30 min</span></span><span class="services__price-dots"></span><span class="services__price-value">$110</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Medium (2-2.5) <span class="services__price-time">2 hr 30 min</span></span><span class="services__price-dots"></span><span class="services__price-value">$120</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Long (3-3.5) <span class="services__price-time">2 hr 30 min</span></span><span class="services__price-dots"></span><span class="services__price-value">$130</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Extra Long (4-6) <span class="services__price-time">3 hr</span></span><span class="services__price-dots"></span><span class="services__price-value">$140</span></div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Short (1-1.5) <span class="services__price-time">2 hr 30 min</span></span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$110</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Medium (2-2.5) <span class="services__price-time">2 hr 30 min</span></span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$120</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Long (3-3.5) <span class="services__price-time">2 hr 30 min</span></span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$130</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Extra Long (4-6) <span class="services__price-time">3 hr</span></span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$140</span>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Nail Extensions - Top -->
                 <div class="services__category">
                     <div class="services__category-header" data-accordion>
                         <div>
@@ -417,17 +564,36 @@
                         </div>
                         <div class="services__category-meta">
                             <span class="services__category-duration">2.5 - 3 hr</span>
-                            <span class="services__category-toggle"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg></span>
+                            <span class="services__category-toggle">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg>
+                            </span>
                         </div>
                     </div>
                     <div class="services__category-body">
-                        <div class="services__price-row"><span class="services__price-name">Short (1-1.5) <span class="services__price-time">2 hr 30 min</span></span><span class="services__price-dots"></span><span class="services__price-value">$120</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Medium (2-2.5) <span class="services__price-time">2 hr 30 min</span></span><span class="services__price-dots"></span><span class="services__price-value">$130</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Long (3-3.5) <span class="services__price-time">2 hr 30 min</span></span><span class="services__price-dots"></span><span class="services__price-value">$140</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Extra Long (4-6) <span class="services__price-time">3 hr</span></span><span class="services__price-dots"></span><span class="services__price-value">$150</span></div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Short (1-1.5) <span class="services__price-time">2 hr 30 min</span></span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$120</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Medium (2-2.5) <span class="services__price-time">2 hr 30 min</span></span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$130</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Long (3-3.5) <span class="services__price-time">2 hr 30 min</span></span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$140</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Extra Long (4-6) <span class="services__price-time">3 hr</span></span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$150</span>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Additional Services -->
                 <div class="services__category">
                     <div class="services__category-header" data-accordion>
                         <div>
@@ -436,23 +602,48 @@
                         </div>
                         <div class="services__category-meta">
                             <span class="services__category-duration">10 - 20 min</span>
-                            <span class="services__category-toggle"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg></span>
+                            <span class="services__category-toggle">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 8L10 13L15 8" stroke="currentColor" stroke-width="1.2"/></svg>
+                            </span>
                         </div>
                     </div>
                     <div class="services__category-body">
-                        <div class="services__price-row"><span class="services__price-name">Hand Polish Change <span class="services__price-time">15 min</span></span><span class="services__price-dots"></span><span class="services__price-value">$15</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Spa Manicure Add-On <span class="services__price-time">20 min</span></span><span class="services__price-dots"></span><span class="services__price-value">$20</span></div>
-                        <div class="services__price-row services__price-row--note"><span class="services__price-note">Includes hand mask, scrub and 10 minute massage</span></div>
-                        <div class="services__price-row"><span class="services__price-name">Kids Manicure <span class="services__price-time">15 min</span></span><span class="services__price-dots"></span><span class="services__price-value">$15</span></div>
-                        <div class="services__price-row"><span class="services__price-name">4 Hand Service <span class="services__price-time">10 min</span></span><span class="services__price-dots"></span><span class="services__price-value">$20</span></div>
-                        <div class="services__price-row services__price-row--note"><span class="services__price-note">Manicure and pedicure performed simultaneously by two technicians</span></div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Hand Polish Change <span class="services__price-time">15 min</span></span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$15</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Spa Manicure Add-On <span class="services__price-time">20 min</span></span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$20</span>
+                        </div>
+                        <div class="services__price-row services__price-row--note">
+                            <span class="services__price-note">Includes hand mask, scrub and 10 minute massage</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">Kids Manicure <span class="services__price-time">15 min</span></span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$15</span>
+                        </div>
+                        <div class="services__price-row">
+                            <span class="services__price-name">4 Hand Service <span class="services__price-time">10 min</span></span>
+                            <span class="services__price-dots"></span>
+                            <span class="services__price-value">$20</span>
+                        </div>
+                        <div class="services__price-row services__price-row--note">
+                            <span class="services__price-note">Manicure and pedicure performed simultaneously by two technicians</span>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- MARQUEE -->
+    <!-- ============================================ -->
+    <!-- MARQUEE / RUNNING TEXT -->
+    <!-- ============================================ -->
     <div class="marquee" data-animate="fade-up">
         <div class="marquee__track">
             <span class="marquee__item">Precision &#10022;</span>
@@ -470,7 +661,9 @@
         </div>
     </div>
 
-    <!-- TEAM -->
+    <!-- ============================================ -->
+    <!-- TEAM SECTION -->
+    <!-- ============================================ -->
     <section class="team" id="team">
         <div class="team__container">
             <div class="team__header" data-animate="fade-up">
@@ -479,27 +672,39 @@
                 <p class="team__intro">A talented collective of beauty professionals dedicated to making you feel and look your absolute best.</p>
             </div>
 
+            <!-- Top Nail Artists -->
             <div class="team__group" data-animate="fade-up">
-                <h3 class="team__group-title"><span class="team__group-badge">&#9733;</span> Top Nail Artists</h3>
+                <h3 class="team__group-title">
+                    <span class="team__group-badge">&#9733;</span>
+                    Top Nail Artists
+                </h3>
                 <div class="team__carousel" id="teamCarouselTop">
                     <div class="team__carousel-track">
                         <div class="team__member">
-                            <div class="team__member-photo"><img src="1 staff/IMG_4449.jpg" alt="Ademii"></div>
+                            <div class="team__member-photo">
+                                <img src="1 staff/IMG_4449.jpg" alt="Ademii">
+                            </div>
                             <h4 class="team__member-name">Ademii</h4>
                             <p class="team__member-role">Founder &amp; Top Nail Artist</p>
                         </div>
                         <div class="team__member">
-                            <div class="team__member-photo"><img src="1 staff/IMG_4460.jpg" alt="Aika"></div>
+                            <div class="team__member-photo">
+                                <img src="1 staff/IMG_4460.jpg" alt="Aika">
+                            </div>
                             <h4 class="team__member-name">Aika</h4>
                             <p class="team__member-role">Top Nail Artist</p>
                         </div>
                         <div class="team__member">
-                            <div class="team__member-photo"><img src="1 staff/IMG_4485.jpg" alt="Aiza"></div>
+                            <div class="team__member-photo">
+                                <img src="1 staff/IMG_4485.jpg" alt="Aiza">
+                            </div>
                             <h4 class="team__member-name">Aiza</h4>
                             <p class="team__member-role">Top Nail Artist</p>
                         </div>
                         <div class="team__member">
-                            <div class="team__member-photo"><img src="1 staff/IMG_6450 2.JPG" alt="Regina"></div>
+                            <div class="team__member-photo">
+                                <img src="1 staff/IMG_6450 2.JPG" alt="Regina">
+                            </div>
                             <h4 class="team__member-name">Regina</h4>
                             <p class="team__member-role">Top Nail Artist</p>
                         </div>
@@ -507,37 +712,50 @@
                 </div>
             </div>
 
+            <!-- Senior Nail Artists -->
             <div class="team__group" data-animate="fade-up">
                 <h3 class="team__group-title">Senior Nail Artists</h3>
                 <div class="team__carousel" id="teamCarouselSenior">
                     <div class="team__carousel-track">
                         <div class="team__member">
-                            <div class="team__member-photo"><img src="1 staff/DSC08359.JPG" alt="Adele"></div>
+                            <div class="team__member-photo">
+                                <img src="1 staff/DSC08359.JPG" alt="Adele">
+                            </div>
                             <h4 class="team__member-name">Adele</h4>
                             <p class="team__member-role">Senior Nail Artist</p>
                         </div>
                         <div class="team__member">
-                            <div class="team__member-photo"><img src="1 staff/DSC08369.JPG" alt="Adelina"></div>
+                            <div class="team__member-photo">
+                                <img src="1 staff/DSC08369.JPG" alt="Adelina">
+                            </div>
                             <h4 class="team__member-name">Adelina</h4>
                             <p class="team__member-role">Senior Nail Artist</p>
                         </div>
                         <div class="team__member">
-                            <div class="team__member-photo"><img src="1 staff/DSC08380.JPG" alt="Aitu"></div>
+                            <div class="team__member-photo">
+                                <img src="1 staff/DSC08380.JPG" alt="Aitu">
+                            </div>
                             <h4 class="team__member-name">Aitu</h4>
                             <p class="team__member-role">Senior Nail Artist</p>
                         </div>
                         <div class="team__member">
-                            <div class="team__member-photo"><img src="1 staff/DSC08390.JPG" alt="Ilina"></div>
+                            <div class="team__member-photo">
+                                <img src="1 staff/DSC08390.JPG" alt="Ilina">
+                            </div>
                             <h4 class="team__member-name">Ilina</h4>
                             <p class="team__member-role">Senior Nail Artist</p>
                         </div>
                         <div class="team__member">
-                            <div class="team__member-photo"><img src="1 staff/DSC08439.JPG" alt="Mia"></div>
+                            <div class="team__member-photo">
+                                <img src="1 staff/DSC08439.JPG" alt="Mia">
+                            </div>
                             <h4 class="team__member-name">Mia</h4>
                             <p class="team__member-role">Senior Nail Artist</p>
                         </div>
                         <div class="team__member">
-                            <div class="team__member-photo"><img src="1 staff/DSC08446.JPG" alt="Naz"></div>
+                            <div class="team__member-photo">
+                                <img src="1 staff/DSC08446.JPG" alt="Naz">
+                            </div>
                             <h4 class="team__member-name">Naz</h4>
                             <p class="team__member-role">Senior Nail Artist</p>
                         </div>
@@ -546,50 +764,19 @@
             </div>
 
             <div class="team__nav" data-animate="fade-up">
-                <button class="team__nav-btn team__nav-btn--prev" id="teamPrev" aria-label="Previous"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="1.2"/></svg></button>
-                <button class="team__nav-btn team__nav-btn--next" id="teamNext" aria-label="Next"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1.2"/></svg></button>
+                <button class="team__nav-btn team__nav-btn--prev" id="teamPrev" aria-label="Previous">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="1.2"/></svg>
+                </button>
+                <button class="team__nav-btn team__nav-btn--next" id="teamNext" aria-label="Next">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1.2"/></svg>
+                </button>
             </div>
         </div>
     </section>
 
-    <!-- BEFORE & AFTER -->
-    <section class="before-after" id="before-after">
-        <div class="before-after__container">
-            <div class="before-after__header" data-animate="fade-up">
-                <span class="section-tag">Transformations</span>
-                <h2 class="section-title">Before &amp; <em>After</em></h2>
-                <p class="before-after__intro">See the stunning transformations our artists create every day. Real clients, real results.</p>
-            </div>
-            <div class="before-after__grid" data-animate="fade-up">
-                <div class="before-after__pair">
-                    <div class="before-after__card"><img src="img/converted/nailart_01.jpg" alt="Before"><span class="before-after__label">Before</span></div>
-                    <div class="before-after__card"><img src="img/converted/nailart_02.jpg" alt="After"><span class="before-after__label before-after__label--after">After</span></div>
-                </div>
-                <div class="before-after__pair">
-                    <div class="before-after__card"><img src="img/converted/nailart_03.jpg" alt="Before"><span class="before-after__label">Before</span></div>
-                    <div class="before-after__card"><img src="img/converted/nailart_04.jpg" alt="After"><span class="before-after__label before-after__label--after">After</span></div>
-                </div>
-                <div class="before-after__pair">
-                    <div class="before-after__card"><img src="img/converted/nailart_05.jpg" alt="Before"><span class="before-after__label">Before</span></div>
-                    <div class="before-after__card"><img src="img/converted/nailart_06.jpg" alt="After"><span class="before-after__label before-after__label--after">After</span></div>
-                </div>
-                <div class="before-after__pair">
-                    <div class="before-after__card"><img src="img/converted/nailart_07.jpg" alt="Before"><span class="before-after__label">Before</span></div>
-                    <div class="before-after__card"><img src="img/converted/nailart_08.jpg" alt="After"><span class="before-after__label before-after__label--after">After</span></div>
-                </div>
-                <div class="before-after__pair">
-                    <div class="before-after__card"><img src="img/converted/nailart_09.jpg" alt="Before"><span class="before-after__label">Before</span></div>
-                    <div class="before-after__card"><img src="img/converted/nailart_10.jpg" alt="After"><span class="before-after__label before-after__label--after">After</span></div>
-                </div>
-                <div class="before-after__pair">
-                    <div class="before-after__card"><img src="img/converted/nailart_11.jpg" alt="Before"><span class="before-after__label">Before</span></div>
-                    <div class="before-after__card"><img src="img/converted/nailart_12.jpg" alt="After"><span class="before-after__label before-after__label--after">After</span></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- GALLERY -->
+    <!-- ============================================ -->
+    <!-- GALLERY SECTION -->
+    <!-- ============================================ -->
     <section class="gallery" id="gallery">
         <div class="gallery__container">
             <div class="gallery__header" data-animate="fade-up">
@@ -601,72 +788,40 @@
                 <button class="gallery__filter gallery__filter--active" data-filter="all">All</button>
                 <button class="gallery__filter" data-filter="manicure">Manicure</button>
                 <button class="gallery__filter" data-filter="nailart">Nail Art</button>
-                <button class="gallery__filter" data-filter="studio">Studio</button>
-                <button class="gallery__filter" data-filter="process">Process</button>
+                <button class="gallery__filter" data-filter="interior">Studio</button>
             </div>
             <div class="gallery__grid" data-animate="fade-up">
-                <div class="gallery__item gallery__item--tall" data-category="nailart"><img src="img/photos/art_02.jpg" alt="Nail art design"></div>
-                <div class="gallery__item" data-category="nailart"><img src="img/photos/art_04.jpg" alt="Creative nail art"></div>
-                <div class="gallery__item" data-category="studio"><img src="img/converted/studio_01.jpg" alt="Studio vibe"></div>
-                <div class="gallery__item gallery__item--wide" data-category="manicure"><img src="img/photos/art_05.jpg" alt="Classic manicure"></div>
-                <div class="gallery__item" data-category="nailart"><img src="img/photos/art_07.jpg" alt="Nail art details"></div>
-                <div class="gallery__item" data-category="process"><img src="img/photos/work_01.jpg" alt="Manicure process"></div>
-                <div class="gallery__item gallery__item--tall" data-category="nailart"><img src="img/photos/art_09.jpg" alt="Nail art showcase"></div>
-                <div class="gallery__item" data-category="studio"><img src="img/converted/studio_08.jpg" alt="Studio interior"></div>
-                <div class="gallery__item" data-category="manicure"><img src="img/photos/art_10.jpg" alt="Gel manicure result"></div>
-                <div class="gallery__item" data-category="nailart"><img src="img/photos/art_11.jpg" alt="Nail art collection"></div>
-                <div class="gallery__item gallery__item--wide" data-category="studio"><img src="img/converted/studio_15.jpg" alt="Esma Beauty Studio workspace"></div>
-                <div class="gallery__item" data-category="process"><img src="img/photos/work_05.jpg" alt="Artist at work"></div>
-                <div class="gallery__item" data-category="nailart"><img src="img/photos/art_13.jpg" alt="Nail art design"></div>
-                <div class="gallery__item gallery__item--tall" data-category="manicure"><img src="img/photos/art_14.jpg" alt="Premium manicure"></div>
-                <div class="gallery__item" data-category="nailart"><img src="img/photos/art_16.jpg" alt="Nail art design"></div>
-                <div class="gallery__item" data-category="studio"><img src="img/converted/studio_25.jpg" alt="Studio details"></div>
-                <div class="gallery__item" data-category="process"><img src="img/photos/work_10.jpg" alt="Work in progress"></div>
-                <div class="gallery__item" data-category="nailart"><img src="img/photos/art_18.jpg" alt="Nail art"></div>
-                <div class="gallery__item gallery__item--wide" data-category="nailart"><img src="img/photos/art_20.jpg" alt="Nail art collection"></div>
-                <div class="gallery__item" data-category="manicure"><img src="img/photos/art_22.jpg" alt="Classic manicure"></div>
-                <div class="gallery__item" data-category="studio"><img src="img/converted/studio_35.jpg" alt="Studio atmosphere"></div>
-                <div class="gallery__item gallery__item--tall" data-category="nailart"><img src="img/photos/art_24.jpg" alt="Nail art showcase"></div>
-                <div class="gallery__item" data-category="process"><img src="img/photos/work_15.jpg" alt="Nail care process"></div>
-                <div class="gallery__item" data-category="nailart"><img src="img/photos/art_26.jpg" alt="Nail art details"></div>
-                <div class="gallery__item" data-category="studio"><img src="img/converted/studio_40.jpg" alt="Studio ambiance"></div>
-                <div class="gallery__item" data-category="manicure"><img src="img/photos/art_28.jpg" alt="Luxury manicure"></div>
-                <div class="gallery__item" data-category="nailart"><img src="img/photos/art_30.jpg" alt="Nail art masterpiece"></div>
-                <div class="gallery__item" data-category="process"><img src="img/photos/work_20.jpg" alt="Artist creating"></div>
-                <div class="gallery__item gallery__item--wide" data-category="studio"><img src="img/converted/studio_45.jpg" alt="Esma Beauty Studio"></div>
-                <div class="gallery__item" data-category="nailart"><img src="img/converted/nailart_15.jpg" alt="Nail art"></div>
-                <div class="gallery__item" data-category="nailart"><img src="img/converted/nailart_20.jpg" alt="Nail art"></div>
-                <div class="gallery__item" data-category="manicure"><img src="img/photos/detail_05.jpg" alt="Nail detail"></div>
-                <div class="gallery__item" data-category="process"><img src="img/photos/work_25.jpg" alt="Manicure in progress"></div>
-                <div class="gallery__item gallery__item--tall" data-category="nailart"><img src="img/photos/detail_10.jpg" alt="Nail art detail"></div>
-                <div class="gallery__item" data-category="studio"><img src="img/converted/studio_50.jpg" alt="Studio details"></div>
-                <div class="gallery__item" data-category="nailart"><img src="img/photos/detail_15.jpg" alt="Nail design"></div>
+                <div class="gallery__item" data-category="manicure">
+                    <img src="img/nails1.jpg" alt="Classic manicure design">
+                </div>
+                <div class="gallery__item gallery__item--tall" data-category="nailart">
+                    <img src="img/nails2.jpg" alt="Nail art design">
+                </div>
+                <div class="gallery__item" data-category="manicure">
+                    <img src="img/nails3.jpg" alt="Gel manicure">
+                </div>
+                <div class="gallery__item gallery__item--wide" data-category="interior">
+                    <img src="img/interior1.jpg" alt="Studio interior">
+                </div>
+                <div class="gallery__item" data-category="nailart">
+                    <img src="img/nails4.jpg" alt="Creative nail art">
+                </div>
+                <div class="gallery__item" data-category="manicure">
+                    <img src="img/nails5.jpg" alt="Luxury manicure">
+                </div>
+                <div class="gallery__item gallery__item--tall" data-category="nailart">
+                    <img src="img/nails6.jpg" alt="Nail art collection">
+                </div>
+                <div class="gallery__item" data-category="interior">
+                    <img src="img/interior2.jpg" alt="Studio atmosphere">
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- STUDIO VIBE -->
-    <section class="studio-vibe" id="studio-vibe">
-        <div class="studio-vibe__container">
-            <div class="studio-vibe__header" data-animate="fade-up">
-                <span class="section-tag">Our Space</span>
-                <h2 class="section-title">Step Inside <em>Our Studio</em></h2>
-                <p class="studio-vibe__intro">A calm, sophisticated space designed for relaxation and beauty. Every detail is curated for your comfort.</p>
-            </div>
-            <div class="studio-vibe__grid" data-animate="fade-up">
-                <div class="studio-vibe__item studio-vibe__item--hero"><img src="img/converted/studio_02.jpg" alt="Main studio view"></div>
-                <div class="studio-vibe__item"><img src="img/converted/studio_12.jpg" alt="Studio details"></div>
-                <div class="studio-vibe__item"><img src="img/converted/studio_18.jpg" alt="Workstation"></div>
-                <div class="studio-vibe__item studio-vibe__item--wide"><img src="img/converted/studio_22.jpg" alt="Studio panorama"></div>
-                <div class="studio-vibe__item"><img src="img/converted/studio_28.jpg" alt="Decor details"></div>
-                <div class="studio-vibe__item"><img src="img/converted/studio_32.jpg" alt="Products display"></div>
-                <div class="studio-vibe__item"><img src="img/converted/studio_38.jpg" alt="Lighting details"></div>
-                <div class="studio-vibe__item studio-vibe__item--wide"><img src="img/converted/studio_42.jpg" alt="Studio atmosphere"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- REVIEWS -->
+    <!-- ============================================ -->
+    <!-- REVIEWS / TESTIMONIALS -->
+    <!-- ============================================ -->
     <section class="reviews" id="reviews">
         <div class="reviews__container">
             <div class="reviews__header" data-animate="fade-up">
@@ -677,62 +832,90 @@
                 <div class="reviews__card reviews__card--rotated-left">
                     <div class="reviews__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     <p class="reviews__text">"Absolutely the best nail salon I've ever been to! The attention to detail is incredible, and my nails last weeks without any chips. The studio is gorgeous and so relaxing."</p>
-                    <div class="reviews__author"><span class="reviews__author-name">Sarah M.</span><span class="reviews__author-source">Google Review</span></div>
+                    <div class="reviews__author">
+                        <span class="reviews__author-name">Sarah M.</span>
+                        <span class="reviews__author-source">Google Review</span>
+                    </div>
                 </div>
                 <div class="reviews__card reviews__card--featured">
                     <div class="reviews__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     <p class="reviews__text">"Ademii is truly an artist. I came in with a simple idea, and she transformed it into something stunning. The whole experience felt premium from start to finish. I'll never go anywhere else!"</p>
-                    <div class="reviews__author"><span class="reviews__author-name">Jennifer K.</span><span class="reviews__author-source">Google Review</span></div>
+                    <div class="reviews__author">
+                        <span class="reviews__author-name">Jennifer K.</span>
+                        <span class="reviews__author-source">Google Review</span>
+                    </div>
                 </div>
                 <div class="reviews__card reviews__card--rotated-right">
                     <div class="reviews__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     <p class="reviews__text">"I love that they offer Halal manicure options! The Japanese treatment left my nails looking and feeling healthier than ever. Such a beautiful, clean studio too."</p>
-                    <div class="reviews__author"><span class="reviews__author-name">Amira L.</span><span class="reviews__author-source">Yelp Review</span></div>
+                    <div class="reviews__author">
+                        <span class="reviews__author-name">Amira L.</span>
+                        <span class="reviews__author-source">Yelp Review</span>
+                    </div>
                 </div>
                 <div class="reviews__card reviews__card--rotated-left">
                     <div class="reviews__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     <p class="reviews__text">"My nail extensions lasted almost a month, and they still looked fresh. The team here really knows what they're doing. The atmosphere is so calming - I felt like I was at a spa."</p>
-                    <div class="reviews__author"><span class="reviews__author-name">Michelle T.</span><span class="reviews__author-source">Instagram</span></div>
+                    <div class="reviews__author">
+                        <span class="reviews__author-name">Michelle T.</span>
+                        <span class="reviews__author-source">Instagram</span>
+                    </div>
                 </div>
                 <div class="reviews__card reviews__card--rotated-right">
                     <div class="reviews__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     <p class="reviews__text">"Brought my daughter for a kids manicure, and she was so happy! The staff is friendly, professional, and incredibly talented. This has become our go-to place."</p>
-                    <div class="reviews__author"><span class="reviews__author-name">Diana R.</span><span class="reviews__author-source">Google Review</span></div>
+                    <div class="reviews__author">
+                        <span class="reviews__author-name">Diana R.</span>
+                        <span class="reviews__author-source">Google Review</span>
+                    </div>
                 </div>
                 <div class="reviews__card reviews__card--featured">
                     <div class="reviews__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
                     <p class="reviews__text">"The 4-hand service was such a game-changer - getting my mani and pedi done at the same time was so efficient! The quality didn't suffer at all, everything was perfect."</p>
-                    <div class="reviews__author"><span class="reviews__author-name">Lisa W.</span><span class="reviews__author-source">Yelp Review</span></div>
+                    <div class="reviews__author">
+                        <span class="reviews__author-name">Lisa W.</span>
+                        <span class="reviews__author-source">Yelp Review</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- PROMO -->
+    <!-- ============================================ -->
+    <!-- PROMO SECTION -->
+    <!-- ============================================ -->
     <section class="promo" id="promo">
         <div class="promo__container" data-animate="fade-up">
             <div class="promo__card">
-                <img src="img/photos/art_19.jpg" alt="Special offer" class="promo__card-bg">
+                <img src="img/nails1.jpg" alt="Special offer" class="promo__card-bg">
                 <div class="promo__card-content">
                     <span class="promo__card-badge">Special Offer</span>
                     <h3 class="promo__card-title">First Visit<br>Experience</h3>
                     <p class="promo__card-text">New to Esma? Book your first appointment and discover the art of beautiful nails with our expert team.</p>
-                    <a href="#booking" class="btn btn--white"><span>Book Now</span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg></a>
+                    <a href="#booking" class="btn btn--white">
+                        <span>Book Now</span>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg>
+                    </a>
                 </div>
             </div>
             <div class="promo__card">
-                <img src="img/photos/art_25.jpg" alt="Signature service" class="promo__card-bg">
+                <img src="img/nails6.jpg" alt="Signature service" class="promo__card-bg">
                 <div class="promo__card-content">
                     <span class="promo__card-badge">Signature</span>
                     <h3 class="promo__card-title">Manicure<br>with Ademii</h3>
                     <p class="promo__card-text">An exclusive experience. Get a personally crafted manicure from our founder with advanced precision and full attention.</p>
-                    <a href="#booking" class="btn btn--white"><span>From $80</span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg></a>
+                    <a href="#booking" class="btn btn--white">
+                        <span>From $80</span>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- FAQ -->
+    <!-- ============================================ -->
+    <!-- FAQ SECTION -->
+    <!-- ============================================ -->
     <section class="faq" id="faq">
         <div class="faq__container">
             <div class="faq__header" data-animate="fade-up">
@@ -741,51 +924,100 @@
             </div>
             <div class="faq__list" data-animate="fade-up">
                 <div class="faq__item">
-                    <button class="faq__question" data-faq><span>How long does a gel manicure last?</span><svg class="faq__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 4V16M4 10H16" stroke="currentColor" stroke-width="1.2"/></svg></button>
-                    <div class="faq__answer"><p>A gel manicure typically lasts 2-3 weeks with proper care. Our premium gel products and application techniques ensure maximum longevity. We recommend avoiding harsh chemicals and using cuticle oil daily to extend the life of your manicure.</p></div>
+                    <button class="faq__question" data-faq>
+                        <span>How long does a gel manicure last?</span>
+                        <svg class="faq__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 4V16M4 10H16" stroke="currentColor" stroke-width="1.2"/></svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>A gel manicure typically lasts 2-3 weeks with proper care. Our premium gel products and application techniques ensure maximum longevity. We recommend avoiding harsh chemicals and using cuticle oil daily to extend the life of your manicure.</p>
+                    </div>
                 </div>
                 <div class="faq__item">
-                    <button class="faq__question" data-faq><span>Do you accept walk-ins?</span><svg class="faq__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 4V16M4 10H16" stroke="currentColor" stroke-width="1.2"/></svg></button>
-                    <div class="faq__answer"><p>While we do our best to accommodate walk-ins when availability allows, we strongly recommend booking an appointment in advance to guarantee your preferred time slot and artist.</p></div>
+                    <button class="faq__question" data-faq>
+                        <span>Do you accept walk-ins?</span>
+                        <svg class="faq__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 4V16M4 10H16" stroke="currentColor" stroke-width="1.2"/></svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>While we do our best to accommodate walk-ins when availability allows, we strongly recommend booking an appointment in advance to guarantee your preferred time slot and artist. You can easily book through our website or by calling us directly.</p>
+                    </div>
                 </div>
                 <div class="faq__item">
-                    <button class="faq__question" data-faq><span>Do you fix broken nails?</span><svg class="faq__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 4V16M4 10H16" stroke="currentColor" stroke-width="1.2"/></svg></button>
-                    <div class="faq__answer"><p>Yes! We offer nail repair services. Whether it's a cracked gel nail, a broken extension, or a natural nail that needs attention, our artists can fix it. Please call us to schedule a quick repair appointment.</p></div>
+                    <button class="faq__question" data-faq>
+                        <span>Do you fix broken nails?</span>
+                        <svg class="faq__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 4V16M4 10H16" stroke="currentColor" stroke-width="1.2"/></svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Yes! We offer nail repair services. Whether it's a cracked gel nail, a broken extension, or a natural nail that needs attention, our artists can fix it. Please call us to schedule a quick repair appointment.</p>
+                    </div>
                 </div>
                 <div class="faq__item">
-                    <button class="faq__question" data-faq><span>What is a Halal Manicure?</span><svg class="faq__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 4V16M4 10H16" stroke="currentColor" stroke-width="1.2"/></svg></button>
-                    <div class="faq__answer"><p>Our Halal Manicure uses water-permeable nail products that allow water to pass through during ablution (wudu). We offer two options: Henna Manicure, which uses natural henna to nourish and strengthen nails, and Japanese Manicure, a traditional treatment using nutrient-rich products for a naturally glossy, healthy finish.</p></div>
+                    <button class="faq__question" data-faq>
+                        <span>What is a Halal Manicure?</span>
+                        <svg class="faq__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 4V16M4 10H16" stroke="currentColor" stroke-width="1.2"/></svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Our Halal Manicure uses water-permeable nail products that allow water to pass through during ablution (wudu). We offer two options: Henna Manicure, which uses natural henna to nourish and strengthen nails, and Japanese Manicure, a traditional treatment using nutrient-rich products for a naturally glossy, healthy finish.</p>
+                    </div>
                 </div>
                 <div class="faq__item">
-                    <button class="faq__question" data-faq><span>What is the difference between Senior and Top Nail Artist?</span><svg class="faq__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 4V16M4 10H16" stroke="currentColor" stroke-width="1.2"/></svg></button>
-                    <div class="faq__answer"><p>All of our artists are highly trained professionals. Our Top Nail Artists have additional years of experience and specialize in advanced techniques such as intricate nail art, complex nail extensions, and signature designs. Senior Nail Artists are skilled professionals who deliver excellent results for all standard and advanced services.</p></div>
+                    <button class="faq__question" data-faq>
+                        <span>What is the difference between Senior and Top Nail Artist?</span>
+                        <svg class="faq__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 4V16M4 10H16" stroke="currentColor" stroke-width="1.2"/></svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>All of our artists are highly trained professionals. Our Top Nail Artists have additional years of experience and specialize in advanced techniques such as intricate nail art, complex nail extensions, and signature designs. Senior Nail Artists are skilled professionals who deliver excellent results for all standard and advanced services.</p>
+                    </div>
                 </div>
                 <div class="faq__item">
-                    <button class="faq__question" data-faq><span>What is the 4-Hand Service?</span><svg class="faq__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 4V16M4 10H16" stroke="currentColor" stroke-width="1.2"/></svg></button>
-                    <div class="faq__answer"><p>The 4-Hand Service means your manicure and pedicure are performed simultaneously by two technicians. It's an add-on service ($20) that saves you time while still delivering the same high-quality results. Perfect for clients with busy schedules!</p></div>
+                    <button class="faq__question" data-faq>
+                        <span>What is the 4-Hand Service?</span>
+                        <svg class="faq__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 4V16M4 10H16" stroke="currentColor" stroke-width="1.2"/></svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>The 4-Hand Service means your manicure and pedicure are performed simultaneously by two technicians. It's an add-on service ($20) that saves you time while still delivering the same high-quality results. Perfect for clients with busy schedules!</p>
+                    </div>
                 </div>
                 <div class="faq__item">
-                    <button class="faq__question" data-faq><span>What hours are you open?</span><svg class="faq__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 4V16M4 10H16" stroke="currentColor" stroke-width="1.2"/></svg></button>
-                    <div class="faq__answer"><p>We are open Monday through Saturday from 9:00 AM to 5:00 PM. We are closed on Sundays. We recommend booking in advance, especially for weekend appointments, as they tend to fill up quickly.</p></div>
+                    <button class="faq__question" data-faq>
+                        <span>What hours are you open?</span>
+                        <svg class="faq__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 4V16M4 10H16" stroke="currentColor" stroke-width="1.2"/></svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>We are open Monday through Saturday from 9:00 AM to 5:00 PM. We are closed on Sundays. We recommend booking in advance, especially for weekend appointments, as they tend to fill up quickly.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CONTACT -->
+    <!-- ============================================ -->
+    <!-- CONTACT / MAP SECTION -->
+    <!-- ============================================ -->
     <section class="contact" id="contact">
         <div class="contact__container">
             <div class="contact__info" data-animate="fade-up">
                 <span class="section-tag">Get in Touch</span>
                 <h2 class="section-title">Visit <em>Our Studio</em></h2>
                 <div class="contact__details">
-                    <div class="contact__detail"><span class="contact__detail-label">Address</span><p class="contact__detail-value">1440 Market St<br>Des Plaines, IL 60016</p></div>
-                    <div class="contact__detail"><span class="contact__detail-label">Phone</span><a href="tel:+12244936958" class="contact__detail-value contact__detail-link">+1 (224) 493-6958</a></div>
+                    <div class="contact__detail">
+                        <span class="contact__detail-label">Address</span>
+                        <p class="contact__detail-value">1440 Market St<br>Des Plaines, IL 60016</p>
+                    </div>
+                    <div class="contact__detail">
+                        <span class="contact__detail-label">Phone</span>
+                        <a href="tel:+12244936958" class="contact__detail-value contact__detail-link">+1 (224) 493-6958</a>
+                    </div>
                     <div class="contact__detail">
                         <span class="contact__detail-label">Business Hours</span>
                         <div class="contact__hours">
-                            <div class="contact__hours-row"><span>Monday - Saturday</span><span>9:00 AM - 5:00 PM</span></div>
-                            <div class="contact__hours-row"><span>Sunday</span><span>Closed</span></div>
+                            <div class="contact__hours-row">
+                                <span>Monday - Saturday</span>
+                                <span>9:00 AM - 5:00 PM</span>
+                            </div>
+                            <div class="contact__hours-row">
+                                <span>Sunday</span>
+                                <span>Closed</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -800,19 +1032,28 @@
         </div>
     </section>
 
-    <!-- CTA -->
+    <!-- ============================================ -->
+    <!-- CTA SECTION -->
+    <!-- ============================================ -->
     <section class="cta" data-animate="fade-up">
         <div class="cta__container">
             <h2 class="cta__title">Ready to Elevate<br>Your <em>Beauty</em>?</h2>
             <p class="cta__text">Book your appointment today and experience the Esma difference.</p>
             <div class="cta__buttons">
-                <a href="#booking" class="btn btn--filled-dark"><span>Book Appointment</span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg></a>
-                <a href="tel:+12244936958" class="btn btn--primary"><span>Call Us</span></a>
+                <a href="#booking" class="btn btn--filled-dark">
+                    <span>Book Appointment</span>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.2"/></svg>
+                </a>
+                <a href="tel:+12244936958" class="btn btn--primary">
+                    <span>Call Us</span>
+                </a>
             </div>
         </div>
     </section>
 
+    <!-- ============================================ -->
     <!-- FOOTER -->
+    <!-- ============================================ -->
     <footer class="footer" id="footer">
         <div class="footer__container">
             <div class="footer__top">
@@ -849,16 +1090,28 @@
             <div class="footer__bottom">
                 <p class="footer__copyright">&copy; 2025 Esma Beauty Studio. All rights reserved.</p>
                 <div class="footer__social">
-                    <a href="#" class="footer__social-link" aria-label="Instagram" target="_blank"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg></a>
-                    <a href="#" class="footer__social-link" aria-label="Facebook" target="_blank"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
-                    <a href="#" class="footer__social-link" aria-label="Yelp" target="_blank"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></a>
+                    <a href="#" class="footer__social-link" aria-label="Instagram" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="Facebook" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                    </a>
+                    <a href="#" class="footer__social-link" aria-label="Yelp" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="footer__decor"><img src="img/photos/art_29.jpg" alt="Decorative nail art"></div>
+        <!-- Footer decorative image -->
+        <div class="footer__decor">
+            <img src="img/nails1.jpg" alt="Decorative nail art">
+        </div>
     </footer>
 
-    <button class="back-to-top" id="backToTop" aria-label="Back to top"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 19V5M5 12L12 5L19 12" stroke="currentColor" stroke-width="1.5"/></svg></button>
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 19V5M5 12L12 5L19 12" stroke="currentColor" stroke-width="1.5"/></svg>
+    </button>
 
     <script src="js/main.js"></script>
 </body>

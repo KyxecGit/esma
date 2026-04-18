@@ -2206,145 +2206,6 @@ ul {
 }
 
 /* ============================================
-   BEFORE & AFTER SECTION
-   ============================================ */
-.before-after {
-    padding: var(--section-padding) 0;
-    background: var(--color-bg-alt);
-}
-
-.before-after__container {
-    max-width: var(--container-max);
-    margin: 0 auto;
-    padding: 0 var(--container-padding);
-}
-
-.before-after__header {
-    text-align: center;
-    margin-bottom: 60px;
-}
-
-.before-after__intro {
-    font-size: 16px;
-    color: var(--color-text-light);
-    max-width: 500px;
-    margin: 16px auto 0;
-    line-height: 1.7;
-}
-
-.before-after__grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-}
-
-.before-after__pair {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4px;
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    box-shadow: var(--shadow-card);
-}
-
-.before-after__card {
-    position: relative;
-    overflow: hidden;
-    aspect-ratio: 3 / 4;
-}
-
-.before-after__card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
-
-.before-after__pair:hover .before-after__card img {
-    transform: scale(1.05);
-}
-
-.before-after__label {
-    position: absolute;
-    bottom: 12px;
-    left: 12px;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    font-size: 10px;
-    font-weight: 500;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    padding: 6px 14px;
-    border-radius: var(--radius-pill);
-    backdrop-filter: blur(10px);
-}
-
-.before-after__label--after {
-    background: var(--color-accent);
-    color: white;
-}
-
-/* ============================================
-   STUDIO VIBE SECTION
-   ============================================ */
-.studio-vibe {
-    padding: var(--section-padding) 0;
-    background: var(--color-bg);
-}
-
-.studio-vibe__container {
-    max-width: var(--container-max);
-    margin: 0 auto;
-    padding: 0 var(--container-padding);
-}
-
-.studio-vibe__header {
-    text-align: center;
-    margin-bottom: 60px;
-}
-
-.studio-vibe__intro {
-    font-size: 16px;
-    color: var(--color-text-light);
-    max-width: 500px;
-    margin: 16px auto 0;
-    line-height: 1.7;
-}
-
-.studio-vibe__grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 260px;
-    gap: 16px;
-}
-
-.studio-vibe__item {
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    position: relative;
-}
-
-.studio-vibe__item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.6s ease;
-}
-
-.studio-vibe__item:hover img {
-    transform: scale(1.08);
-}
-
-.studio-vibe__item--hero {
-    grid-column: span 2;
-    grid-row: span 2;
-}
-
-.studio-vibe__item--wide {
-    grid-column: span 2;
-}
-
-/* ============================================
    RESPONSIVE — TABLET (<=1024px)
    ============================================ */
 @media (max-width: 1024px) {
@@ -2466,16 +2327,6 @@ ul {
 
     .team__member {
         flex: 0 0 calc(33.333% - 16px);
-    }
-
-    .before-after__grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-    }
-
-    .studio-vibe__grid {
-        grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: 220px;
     }
 }
 
@@ -2641,21 +2492,6 @@ ul {
         flex-direction: column;
         align-items: center;
     }
-
-    .before-after__grid {
-        grid-template-columns: 1fr;
-        gap: 24px;
-    }
-
-    .studio-vibe__grid {
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 180px;
-    }
-
-    .studio-vibe__item--hero {
-        grid-column: span 2;
-        grid-row: span 1;
-    }
 }
 
 /* ============================================
@@ -2696,15 +2532,5 @@ ul {
     .footer__links {
         grid-template-columns: 1fr;
         gap: 30px;
-    }
-
-    .studio-vibe__grid {
-        grid-template-columns: 1fr;
-        grid-auto-rows: 200px;
-    }
-
-    .studio-vibe__item--hero,
-    .studio-vibe__item--wide {
-        grid-column: span 1;
     }
 }
